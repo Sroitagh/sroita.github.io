@@ -7,11 +7,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
 
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="default.css">
+	
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+	<style>
+        /* CSS for centering and enlarging the icons */
+        .icon-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px; /* Adjust the font size to make the icons bigger */
+            margin: 10px; /* Add some margin for spacing between icons */
+        }
+		/* LinkedIn icon color */
+        .fab.fa-linkedin {
+            color: blue;
+        }
+
+        /* Instagram icon color */
+        .fab.fa-instagram {
+            color: rgb(205, 40, 145);
+        }
+
+        /* GitHub icon color */
+        .fab.fa-github {
+            color: black;
+        }
+    </style>
 </head>
 <body>
 
@@ -27,11 +55,7 @@
 
 					<!-- Link around dots-wrapper added after tutorial video -->
 					<a href="index.html">
-						<div class="dots-wrapper">
-							<div id="dot-1" class="browser-dot"></div>
-							<div id="dot-2" class="browser-dot"></div>
-							<div id="dot-3" class="browser-dot"></div>
-						</div>
+						
 					</a>
 					
 
@@ -83,7 +107,8 @@
 				<div class="about-me">
 					<h4>More about me</h4>
 
-					<p>From Guwhati,Assam.</p>
+					<p>
+						I'm Sroita Ghosh, a determined tech enthusiast hailing from Kokrajhar. I'm on a mission to make a significant impact in the tech world. My journey began with B.Tech, where my thirst for knowledge and passion for innovation have been my driving forces. I've accumulated a wealth of technical skills, constantly adapting to the ever-changing tech landscape. I've actively engaged in numerous projects, both solo and collaborative, honing not only my technical abilities but also my adeptness in team management. With a knack for efficient project management, I'm poised to tackle big challenges and contribute to the tech industry's evolution.</p>
                     <p></p>
 					<p></p>
 
@@ -124,17 +149,6 @@
 				</div>
 
 				
-				<div class="social-links">
-					
-					<h3>Find me on Social Media </h3>
-
-					<a target="_blank" href="https://www.linkedin.com/in/sroita-ghosh-242b3a1ab/">LinkedIn</a>
-					<br>
-					<a target="_blank" href="https://github.com/Sroitagh">Github</a>
-                    <br>
-					<a target="_blank" href="https://www.instagram.com/_sroita_gh/">Instagram</a>
-				</div>
-			</div>
 
 		</div>
 	</section>
@@ -144,6 +158,18 @@
 			<h3 style="text-align: center;">Some of my past projects</h3>
 
 			<div class="post-wrapper">
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/front-AMS.jpg">
+						<div class="post-preview">
+							<h6 class="post-title">NEEPCO-Asset Management System</h6>
+							<p class="post-intro">The "NEEPCO-Asset Management System" is a comprehensive solution designed to streamline asset management practices for North Eastern Electric Power Corporation Limited (NEEPCO).</p>
+							<a href="NEEPCO.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
 
 				<div>
 					<div class="post">
@@ -167,7 +193,7 @@
 					</div>
 				</div>
 
-				<div>
+				<!-- <div>
 					<div class="post">
 						<img class="thumbnail" src="images/SRMS-dash.png">
 						<div class="post-preview">
@@ -176,7 +202,7 @@
 							<a href="SRMS.html">Read More</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
@@ -186,24 +212,21 @@
 		<div class="main-container">
 			<a href=""></a>
 			<h3 style="text-align: center;">Get In Touch</h3>
-
-			<form id="contact-form">
-				<a name="contact"></a>
-
-				<label>Name</label>
-				<input class="input-field" type="text" name="name">
-
-				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
-
-				<label>Email</label>
-				<input class="input-field" type="text" name="email">
-
-				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
-
-				<input id="submit-btn" type="submit" value="Send">
-			</form>
+			<a name="contact"></a>
+			<div class="icon-link">
+				<a href="https://www.linkedin.com/in/sroita-ghosh-242b3a1ab" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-linkedin"></i>
+					
+				</a>
+			
+				<a href="https://github.com/Sroitagh" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-github"></i>
+				</a>
+			
+				<a href="https://www.instagram.com/_sroita_gh/" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</div>
 		</div>
 	</section> 
 
